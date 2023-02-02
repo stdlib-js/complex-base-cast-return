@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/complex-base-cast-return",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Wrap a function and casts a function's return value to a complex number.",
   "license": "Apache-2.0",
   "author": {
