@@ -45,14 +45,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/complex-base-cast-return
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import castReturn from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-base-cast-return@esm/index.mjs';
+var castReturn = require( '@stdlib/complex-base-cast-return' );
 ```
 
 #### castReturn( fcn, nargs, ctor )
@@ -60,8 +76,8 @@ import castReturn from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-base-cast-
 Returns a function which wraps a function and casts a function's return value to a complex number.
 
 ```javascript
-import Complex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32@esm/index.mjs';
-import addf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-addf@esm/index.mjs';
+var Complex64 = require( '@stdlib/complex-float32' );
+var addf = require( '@stdlib/math-base-ops-addf' );
 
 var f = castReturn( addf, 2, Complex64 );
 // returns <Function>
@@ -98,17 +114,12 @@ The function accepts the following arguments:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import Complex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32@esm/index.mjs';
-import addf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-addf@esm/index.mjs';
-import realf from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-realf@esm/index.mjs';
-import imagf from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-imagf@esm/index.mjs';
-import castReturn from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-base-cast-return@esm/index.mjs';
+```javascript
+var Complex64 = require( '@stdlib/complex-float32' );
+var addf = require( '@stdlib/math-base-ops-addf' );
+var realf = require( '@stdlib/complex-realf' );
+var imagf = require( '@stdlib/complex-imagf' );
+var castReturn = require( '@stdlib/complex-base-cast-return' );
 
 var f = castReturn( addf, 2, Complex64 );
 
@@ -125,10 +136,6 @@ var im = imagf( z );
 
 console.log( '%d + %di', re, im );
 // => '7 + 0i'
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -160,7 +167,7 @@ console.log( '%d + %di', re, im );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
