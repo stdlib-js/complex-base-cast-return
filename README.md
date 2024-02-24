@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import castReturn from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-base-cast-return@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/complex-base-cast-return/tags). For example,
+
+```javascript
 import castReturn from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-base-cast-return@v0.2.1-deno/mod.js';
 ```
 
@@ -103,7 +108,7 @@ import Complex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32@den
 import addf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-addf@deno/mod.js';
 import realf from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-realf@deno/mod.js';
 import imagf from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-imagf@deno/mod.js';
-import castReturn from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-base-cast-return@v0.2.1-deno/mod.js';
+import castReturn from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-base-cast-return@deno/mod.js';
 
 var f = castReturn( addf, 2, Complex64 );
 
