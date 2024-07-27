@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/complex-base-cast-return",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Wrap a function and casts a function's return value to a complex number.",
   "license": "Apache-2.0",
   "author": {
@@ -37,17 +37,17 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-is-function": "^0.2.1",
-    "@stdlib/assert-is-nonnegative-integer": "^0.2.1",
-    "@stdlib/string-format": "^0.2.1",
+    "@stdlib/assert-is-function": "^0.2.2",
+    "@stdlib/assert-is-nonnegative-integer": "^0.2.2",
+    "@stdlib/string-format": "^0.2.2",
     "@stdlib/types": "^0.3.2",
-    "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
-    "@stdlib/complex-float32-ctor": "^0.0.1",
-    "@stdlib/complex-float32-imag": "github:stdlib-js/complex-float32-imag#main",
-    "@stdlib/complex-float32-real": "github:stdlib-js/complex-float32-real#main",
-    "@stdlib/math-base-assert-is-nanf": "^0.2.1",
+    "@stdlib/complex-float32-ctor": "^0.0.2",
+    "@stdlib/complex-float32-imag": "^0.1.1",
+    "@stdlib/complex-float32-real": "^0.1.1",
+    "@stdlib/math-base-assert-is-nanf": "^0.2.2",
     "@stdlib/math-base-ops-addf": "^0.2.1",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
