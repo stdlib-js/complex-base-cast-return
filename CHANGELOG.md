@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-15)
+## Unreleased (2025-12-01)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`2b72de4`](https://github.com/stdlib-js/stdlib/commit/2b72de40d93281d9929a0b4d7cf8f567b60ea2f5) - **docs:** improve doctests for complex number instances in `complex/base/cast-return` [(#8664)](https://github.com/stdlib-js/stdlib/pull/8664) _(by Aryan kumar, Athan Reines)_
 -   [`74b15bb`](https://github.com/stdlib-js/stdlib/commit/74b15bba6c22bcdd23d61a4e8996a59c7ef0f041) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`2752fe3`](https://github.com/stdlib-js/stdlib/commit/2752fe3ed80c146e8a122c1e7ed442099ba367bc) - **refactor:** update paths _(by Gururaj Gurram)_
 
@@ -25,8 +26,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Aryan kumar
+-   Athan Reines
 -   Gururaj Gurram
 
 </section>
