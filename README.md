@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import castReturn from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-base-cast-return@deno/mod.js';
+import castReturn from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-base-cast-return@v0.2.3-deno/mod.js';
 ```
 
 #### castReturn( fcn, nargs, ctor )
@@ -101,7 +101,7 @@ The function accepts the following arguments:
 ```javascript
 import Complex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-ctor@deno/mod.js';
 import addf from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float32-base-add@deno/mod.js';
-import castReturn from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-base-cast-return@deno/mod.js';
+import castReturn from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-base-cast-return@v0.2.3-deno/mod.js';
 
 var f = castReturn( addf, 2, Complex64 );
 
